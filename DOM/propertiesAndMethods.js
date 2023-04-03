@@ -36,3 +36,7 @@ const pizzaList = document.querySelector('.pizza');
 console.log(pizzaList.textContent)
 
 pizzaList.textContent = `${pizzaList.textContent} 🍕`
+
+// ---- insertAdjacentText and insertAdjacentElement
+
+pizzaList.insertAdjacentText('afterbegin', '🍕');
