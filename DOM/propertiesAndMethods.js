@@ -35,4 +35,4 @@ console.log(document.querySelector('h1#name'))
 const pizzaList = document.querySelector('.pizza');
 console.log(pizzaList.textContent)
 
-
+pizzaList.textContent = `${pizzaList.textContent} 🍕`
